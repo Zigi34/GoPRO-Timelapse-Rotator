@@ -13,7 +13,7 @@
 AccelStepper stepper(AccelStepper::HALF4WIRE, 2, 4, 3, 5);
 
 #define ALL_STEPS       4096
-#define ANGLE           100
+#define ANGLE           50
 #define ANGLE_STEPS     ALL_STEPS / 360 * ANGLE
 #define DURATION        (60 * 60 * 3.0)
 #define SPEED           ANGLE_STEPS / DURATION
